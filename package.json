@@ -1,0 +1,32 @@
+{
+  "name": "kbbi-scaperv2",
+  "version": "1.0.0",
+  "description": "📚 Kamus Besar Bahasa Indonesia v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natsu062/kbbi-scraperv2.git"
+  },
+  "keywords": [
+    "kbbi",
+    "kamus-besar-bahasa-indonesia",
+    "kamus",
+    "kbbijs",
+    "kbbi-js",
+    "kbbi-api",
+    "kbbiscrapper",
+    "kbbi-scraper",
+    "indo",
+    "indonesia"
+  ],
+  "author": "Natsu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "homepage": "https://github.com/Natsu062/kbbi-scraperv2#readme"
+}
