@@ -4,6 +4,7 @@ const baseUrl = require('./data.json').base_url;
 const eror = require('./error');
 
 module.exports = (query) => {
+    if(!query) throw new Error('Masukkan Query!');
     try {
         return new Promise((resolve, reject) => {
             const q = query.trim().split(/ +/g);
